@@ -8,18 +8,18 @@
   <meta name="keywords" content="">
   <meta name="author" content="Sojeb Sikder">
 
-  <link rel="icon" href="public/assets/images/logo/icon.png" type="image/png" sizes="16x16">
+  <link rel="icon" href="../public/assets/images/logo/icon.png" type="image/png" sizes="16x16">
 
   <!--bootstrap file link -->
-  <link rel="stylesheet" href="public/assets/css/bootstrap.min.css">
-  <script src="public/assets/js/jquery.min.js"></script>
-  <script src="public/assets/js/popper.min.js"></script>
-  <script src="public/assets/js/bootstrap.min.js"></script>
-  <script src="public/assets/js/init.js"></script>
+  <link rel="stylesheet" href="../public/assets/css/bootstrap.min.css">
+  <script src="../public/assets/js/jquery.min.js"></script>
+  <script src="../public/assets/js/popper.min.js"></script>
+  <script src="../public/assets/js/bootstrap.min.js"></script>
+  <script src="../public/assets/js/init.js"></script>
 
 <!--material file link -->
-  <link rel="stylesheet" href="public/assets/css/material/material.css">
-  <script src="public/assets/css/material/material.js"></script>
+  <link rel="stylesheet" href="../public/assets/css/material/material.css">
+  <script src="../public/assets/css/material/material.js"></script>
 
 
   <title>Title</title>

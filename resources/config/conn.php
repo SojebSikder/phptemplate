@@ -22,7 +22,7 @@ $config = array(
 		)
 	),
 	"urls" => array(
-		"baseUrl" => "http://localhost/template"
+		"baseUrl" => "http://localhost/php-template"
 	),
 
 	"paths" => array(
@@ -58,7 +58,7 @@ defined("TEMPLATES_PATH")
 	or define("TEMPLATES_PATH", '../resources/templates');
 
 defined("PublicDir")
-	or define("PublicDir", '../public');
+	or define("PublicDir", $config['urls']['baseUrl'].'/public');
 
 
 
