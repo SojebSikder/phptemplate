@@ -60,8 +60,6 @@ defined("TEMPLATES_PATH")
 defined("PublicDir")
 	or define("PublicDir", $config['urls']['baseUrl'].'/public');
 
-
-
 //assets files url
 define("cover", $config['paths']['images']['cover']);
 define("logo", $config['paths']['images']['logo']);

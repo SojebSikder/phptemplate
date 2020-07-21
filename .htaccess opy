@@ -2,7 +2,7 @@
 
 RewriteEngine on
 
-FallbackResource public/index.php
+# FallbackResource public/index.php
 
 # NC makes the rule of non case sensitive
 # L makes this the last rule that this specific condition will match

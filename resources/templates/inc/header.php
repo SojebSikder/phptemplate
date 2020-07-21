@@ -1,3 +1,9 @@
+<?php //require_once("./resources/config/conn.php"); 
+
+define("BASE","http://localhost/php-template");
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,18 +14,18 @@
   <meta name="keywords" content="">
   <meta name="author" content="Sojeb Sikder">
 
-  <link rel="icon" href="../public/assets/images/logo/icon.png" type="image/png" sizes="16x16">
+  <link rel="icon" href="<?php echo BASE; ?>/public/assets/images/logo/icon.png" type="image/png" sizes="16x16">
 
   <!--bootstrap file link -->
-  <link rel="stylesheet" href="../public/assets/css/bootstrap.min.css">
-  <script src="../public/assets/js/jquery.min.js"></script>
-  <script src="../public/assets/js/popper.min.js"></script>
-  <script src="../public/assets/js/bootstrap.min.js"></script>
-  <script src="../public/assets/js/init.js"></script>
+  <link rel="stylesheet" href="<?php echo BASE; ?>/public/assets/css/bootstrap.min.css">
+  <script src="<?php echo BASE; ?>/public/assets/js/jquery.min.js"></script>
+  <script src="<?php echo BASE; ?>/public/assets/js/popper.min.js"></script>
+  <script src="<?php echo BASE; ?>/public/assets/js/bootstrap.min.js"></script>
+  <script src="<?php echo BASE; ?>/public/assets/js/init.js"></script>
 
 <!--material file link -->
-  <link rel="stylesheet" href="../public/assets/css/material/material.css">
-  <script src="../public/assets/css/material/material.js"></script>
+  <link rel="stylesheet" href="<?php echo BASE; ?>/public/assets/css/material/material.css">
+  <script src="<?php echo BASE; ?>/public/assets/css/material/material.js"></script>
 
 
   <title>Title</title>
@@ -33,13 +39,13 @@
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-info sticky-top">
   <!-- Brand -->
-  <a class="navbar-brand" href="index.php">Title</a>
+  <a class="navbar-brand" href="<?php echo BASE; ?>">Title</a>
 
   <!-- Links -->
   <ul class="navbar-nav">
 
     <li class="nav-item">
-      <a class="nav-link" href="index.php">Home</a>
+      <a class="nav-link" href="<?php echo BASE; ?>">Home</a>
     </li>
 
     <li class="nav-item">
